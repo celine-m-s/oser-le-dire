@@ -1296,3 +1296,17 @@ a {
 #home h1, #home p {
 	color: rgba(1,1,1,0.8);
 } 
+
+/*FAQ*/
+.individual_section {
+	background-image: url(../images/inceste-fond-ecran-methode.jpg);
+}
+
+#faq {
+	color: white;
+}
+
+#faq .row {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
