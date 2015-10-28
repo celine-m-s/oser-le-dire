@@ -1292,3 +1292,7 @@ a {
 	font-size: 1.5rem;
 	color: #96CEB4;
 }
+
+#home h1, #home p {
+	color: rgba(1,1,1,0.8);
+} 
