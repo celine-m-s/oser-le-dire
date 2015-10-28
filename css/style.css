@@ -1237,3 +1237,58 @@ a {
 .crossed {
 	text-decoration: line-through;
 }
+
+.maria-dolores-sanchez {
+	background-image: url(../images/maria-dolores-sanchez-psychopraticienne-2015.jpg);
+}
+
+.row .column {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 600px;
+	padding: 69px 15px 78px;
+}
+
+.row .column {
+	text-align: center;
+}
+
+.about_block .wrap_cont {
+	margin: 0 auto;
+}
+
+.container-fluid.no-padding {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.container-fluid.no-padding .row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.container-fluid.no-padding .col{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.page_section.about_block, #pricing {
+	margin-bottom: 0;
+}
+
+.video {
+	margin-top: 2%;
+}
+
+.navmenu ul li a {
+	color: #96CEB4;
+}
+
+.navmenu li a:hover, .navmenu li.active a {
+	opacity: 0.8;
+}
+
+#logo a {
+	font-size: 1.5rem;
+	color: #96CEB4;
+}
