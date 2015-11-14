@@ -98,6 +98,10 @@ h1,h2,h3,h4,h5.h6 {margin-top:0px;
 .text-center {text-align:center;
 }
 
+a {
+	text-decoration: underline;
+}
+
 
 /*********** MAIN **************/
 body {
@@ -123,7 +127,7 @@ html { font-size: 100%;
 a,
 a:focus {
 	color: #2d2e2e;
-	text-decoration:none !important;
+	/* text-decoration:none !important; */
 	outline:none;
 }
 a:hover { color: #96ceb4;
@@ -191,7 +195,7 @@ img {max-width:100%;
 	background:rgba(0,0,0,0.7);
 	border:none;
 	position:absolute;
-	padding:20px 0;
+	/*padding:20px 0;*/
 	left:0;
 	top:0;
 	width:100%!important;
@@ -231,6 +235,9 @@ img {max-width:100%;
 	margin:0;
 }
 #logo img {vertical-align:top;
+}
+#logo a {
+	text-decoration: none;
 }
 /**/
 
@@ -444,7 +451,7 @@ h2 {
 	position:relative;
 }
 .about_block .col_img {
-	background:url(../images/img_about.jpg) no-repeat center center;
+	background:url(../images/syllabus.png) no-repeat center center;
 	background-size:cover;
 	float:left;
 	position:absolute;
@@ -477,7 +484,7 @@ h2 {
 .team_block {}
 
 .item-team {
-	max-width:270px;
+	/*max-width:270px;*/
 	margin:0 auto 15px;
 	padding:0 0 15px;
 	text-align:center;
@@ -490,7 +497,7 @@ h2 {
 .item-team .img img {
 	vertical-align:top;
 }
-.item-team a:hover .img img {
+.item-team a:hover .img img, .item-team .img:hover img {
 	transform:scale(1.1,1.1);
 	-webkit-transform:scale(1.1,1.1);
 }
@@ -511,6 +518,7 @@ h2 {
 .item-team .social {
 	font-size:0;
 	line-height:0;
+	margin-bottom: 10%;
 }
 .item-team .social a {
 	width:28px;
@@ -876,7 +884,7 @@ h2 {
 	vertical-align:top;
 	background:#fff;
 	border:#eaeaea solid 1px;
-	width:232px;
+	width:300px;
 	padding:25px 15px 26px;
 	margin:0 31px 31px 34px;
 	text-align:center;	
@@ -1236,6 +1244,7 @@ a {
 /* Custom */
 .crossed {
 	text-decoration: line-through;
+	font-style: italic;
 }
 
 .maria-dolores-sanchez {
@@ -1313,4 +1322,39 @@ a {
 
 .sub-info p:first-child {
 	font-weight: bold;
+}
+
+#teacher .column {
+	padding-bottom: 40px;
+}
+
+.item-team .cont.no-rs {
+	border-bottom: 0px solid transparent;
+}
+
+.item-team > span {
+	display: block;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 9px;
+}
+
+.testimonials {
+	margin-top: 0;
+	padding: 8% 0px;
+	background-color: black;
+}
+
+.navmenu ul li, #logo {
+	padding: 5px;
+	margin: 15px auto;
+}
+
+.navmenu ul li.account {
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+.fixed-menu {
+	padding: 0;
 }
